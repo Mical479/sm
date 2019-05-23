@@ -44,20 +44,6 @@ $(function(){
                 </li>
 	    </ul>
         </li>
-        <li>
-            <div class="nav_m">
-                <span><a>用户权限</a></span>
-                <i>&nbsp;</i>
-            </div>
-            <ul class="erji">
-                <li>
-                    <span><a href="#" target="main">角色设置</a></span>
-                </li>
-                <li>
-                    <span><a href="#" target="main">功能权限</a></span>
-                </li>
-            </ul>
-        </li>
         <li class="now">
             <div class="nav_m">
                 <span><a>个人中心</a></span>
@@ -72,6 +58,22 @@ $(function(){
                 </li>
             </ul>
         </li>
+        <li>
+            <div class="nav_m">
+                <span><a>日志信息</a></span>
+                <i>&nbsp;</i>
+            </div>
+            <ul class="erji">
+                <li>
+                    <span><a href="log/operationLog.do" target="main">操作日志</a></span>
+                </li>
+                <li>
+                    <span><a href="log/loginLog.do" target="main">登录日志</a></span>
+                </li>
+                <li>
+                    <span><a href="log/systemLog.do" target="main">系统日志</a></span>
+                </li>
+            </ul>
         <li>
             <div class="nav_m">
                 <span><a href="logout.do" target="_top">退出系统</a></span>
